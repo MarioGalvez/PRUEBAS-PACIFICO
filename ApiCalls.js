@@ -84,7 +84,7 @@ const ApiCalls = () => {
       }
     })
   
-    console.log("Employees earning more than 300,000",selectedEmployees);
+    return selectedEmployees;
   }
 
   SortBySalary(300000);
@@ -94,4 +94,3 @@ const ApiCalls = () => {
 
 }
 
-ApiCalls();
